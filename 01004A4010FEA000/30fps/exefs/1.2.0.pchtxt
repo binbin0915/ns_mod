@@ -1,0 +1,16 @@
+@nsobid-B47CC79B88B7091EA514B2B725C50AE01C6F00DF
+
+# 猎天使魔女 3 v1.2.0帧率补丁【up改洺整合，更多游戏资源请在b站搜索 改洺_】
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 使所有模式为 30fps。坐骑，过场动画，加载...
+@enabled
+00CFD994 41008052
+@stop
+
+@gm_
+
+Thanks to: 
+cvarandas,KlonoaBlade,Ophiannett Rainteau, and Revanlkari
